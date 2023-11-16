@@ -42,8 +42,8 @@ main :-
 
     mostrar_imagen(@main, botMedico),
 
-    send(@main, display, @boton, point(250, 475)),
-    send(@main, display, Salir, point(60, 475)),
+    send(@main, display, @boton, point(190, 475)),
+    send(@main, display, Salir, point(0, 475)),
     send(@main, display, @respl, point(20, 130)),
     send(@main, size, size(500, 500)),
     send(@main, open_centered).
@@ -92,7 +92,7 @@ botones :-
     fallas(Falla),
     mostrar_diagnostico(@main, Falla),
     limpiar,
-    send(@main, display, button('Realizar Consulta', message(@prolog, botones)), point(250, 475)),
-     send(@main, display, button('SALIR', and(message(@main, destroy), message(@main, free))), point(60, 475)),
+    send(@main, display, button('Realizar Consulta', message(@prolog, botones)), point(190, 475)),
+     send(@main, display, button('SALIR', and(message(@main, destroy), message(@main, free))), point(0, 475)),
     send(@main, display, @respl, point(20, 130)).
 lim :- send(@respl, selection('')).

@@ -15,6 +15,15 @@ fallas('USTED PADECE ABRASIÓN CORNEAL:
 ') :- abrasion_corneal, !.
 
 
+fallas('USTED PADECE DE ALERGIA:
+    TRATAMIENTO:
+    Evitar el contacto con el alérgeno.
+    Tomar medicamentos para alergias.
+    Usar un dispositivo de respiración para ayudar a mantener las vías respiratorias abiertas.
+    Usar una inyección de epinefrina para tratar una reacción alérgica grave.
+    Tomar medicamentos para la alergia o recibir inyecciones de alergia para controlar los síntomas.
+') :- alergia, !.
+
 fallas('USTED PADECE PAPERAS:
     TRATAMIENTO:
     Aplicar compresas frías o calientes en la zona del cuello.

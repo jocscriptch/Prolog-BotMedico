@@ -555,81 +555,69 @@ hemocromatosis :- shemocromatosis,
 
 hemofilia :- shemofilia,
     pregunta('¿Tienes hemorragias?'),
-    pregunta('¿Presentas moretones fácilmente?'),
-    pregunta('¿Sufres de dolor articular?').
+    pregunta('¿Sufres de dolor articular?'),
+    pregunta('¿Sufres de hematomas?').
 
 hemorroides :- shemorroides,
     pregunta('¿Tienes sangrado rectal?'),
-    pregunta('¿Sientes dolor durante la defecación?'),
     pregunta('¿Experimentas picazón anal?').
 
 hepatitis :- shepatitis,
-    pregunta('¿Tienes orina oscura?'),
     pregunta('¿Sufres de fatiga?'),
     pregunta('¿Tienes dolor abdominal?'),
     pregunta('¿Presentas ictericia?').
 
 hernia_inguinal :- shernia_inguinal,
-    pregunta('¿Tienes un bulto en la ingle?'),
-    pregunta('¿Sientes dolor al toser?'),
-    pregunta('¿Experimentas dolor en la ingle?').
+    pregunta('¿Experimentas dolor en la ingle?'),
+    pregunta('¿Sientes dolor al toser?').
 
 herpes :- sherpes,
-    pregunta('¿Tienes llagas en los genitales?'),
-    pregunta('¿Experimentas picazón?'),
+    pregunta('¿Experimentas picazón en tus partes intimas?'),
     pregunta('¿Sientes dolor al orinar?').
 
 hidatidosis :- shidatidosis,
     pregunta('¿Experimentas dolor abdominal?'),
-    pregunta('¿Tienes tumefacción?'),
     pregunta('¿Tienes dificultad para respirar?').
 
 hiperactividad :- shiperactividad,
-    pregunta('¿Sientes inquietud?'),
-    pregunta('¿Tienes dificultad para concentrarte?'),
-    pregunta('¿Sufres de impulsividad?').
+    pregunta('¿Sufres de impulsividad?'),
+    pregunta('¿Tienes dificultad para concentrarte?').
 
 hipercolesterolemia :- shipercolesterolemia,
     pregunta('¿Tienes niveles altos de colesterol?'),
     pregunta('¿Tienes riesgo de enfermedad cardíaca?').
 
 hipertension :- shipertension,
-    pregunta('¿Tienes presión arterial elevada?'),
     pregunta('¿Sufres de dolor de cabeza?'),
     pregunta('¿Experimentas mareos?'),
     pregunta('¿Tienes visión borrosa?').
 
 hipertiroidismo :- shipertiroidismo,
-    pregunta('¿Has perdido peso?'),
     pregunta('¿Sufres de nerviosismo?'),
-    pregunta('¿Experimentas taquicardia?'),
+    pregunta('¿Has perdido peso?'),
     pregunta('¿Tienes dificultad para dormir?').
 
 hipoacusia :- shipoacusia,
-    pregunta('¿Tienes dificultad auditiva?'),
     pregunta('¿Sientes zumbidos en los oídos?'),
     pregunta('¿Tienes sensación de oído tapado?').
 
 hipocalcemia :- shipocalcemia,
-    pregunta('¿Experimentas espasmos musculares?'),
     pregunta('¿Sientes entumecimiento?'),
     pregunta('¿Presentas debilidad?'),
     pregunta('¿Tienes dolor articular?').
 
 hipoglucemia :- shipoglucemia,
-    pregunta('¿Sudas mucho?'),
-    pregunta('¿Experimentas temblores?'),
+    pregunta('¿Experimentas temblores en el cuerpo?'),
+    pregunta('¿Sientes ansiedad?'),
     pregunta('¿Sufres de mareos?'),
     pregunta('¿Tienes confusión?').
 
 hipogonadismo :- shipogonadismo,
-    pregunta('¿Tienes baja libido?'),
-    pregunta('¿Sufres de fatiga?'),
     pregunta('¿Tienes disfunción eréctil?'),
+    pregunta('¿Sufres de fatiga?'),
     pregunta('¿Has experimentado pérdida de masa muscular?').
 
 hipotension_arterial :- shipotension_arterial,
-    pregunta('¿Sufres de presión arterial baja?'),
     pregunta('¿Experimentas mareos?'),
     pregunta('¿Has tenido desmayos?'),
     pregunta('¿Sientes debilidad?').
@@ -637,29 +625,24 @@ hipotension_arterial :- shipotension_arterial,
 hipotiroidismo :- shipotiroidismo,
     pregunta('¿Has experimentado aumento de peso sin causa aparente?'),
     pregunta('¿Sufres de fatiga?'),
-    pregunta('¿Tienes síntomas de depresión?'),
     pregunta('¿Has notado pérdida de cabello?').
 
 hirsutismo :- shirsutismo,
-    pregunta('¿Experimentas crecimiento excesivo de vello?'),
     pregunta('¿Tienes acné?'),
     pregunta('¿Has notado engrosamiento de la voz?').
 
 ictus :- sictus,
     pregunta('¿Sufres de dolor de cabeza intenso?'),
-    pregunta('¿Tienes dificultad para hablar?'),
     pregunta('¿Experimentas confusión?'),
     pregunta('¿Has sentido debilidad en un lado del cuerpo?').
 
 impetigo :- simpetigo,
-    pregunta('¿Tienes ampollas en la piel?'),
-    pregunta('¿Observas costras?'),
+    pregunta('¿Observas costras en la piel?'),
     pregunta('¿Sientes picazón en la piel?'),
     pregunta('¿Hay enrojecimiento alrededor de las lesiones?').
 
 influenza :- sinfluenza,
     pregunta('¿Tienes fiebre?'),
-    pregunta('¿Tienes escalofríos?'),
     pregunta('¿Tienes tos'),
     pregunta('¿Tienes dolor de garganta? '),
     pregunta('¿Tienes moqueo?'),
@@ -668,18 +651,15 @@ influenza :- sinfluenza,
 
 insomnio :- sinsomnio,
     pregunta('¿Tienes dificultad para conciliar el sueño?'),
-    pregunta('¿Te despiertas temprano sin poder volver a dormir?'),
     pregunta('¿Sufres de fatiga durante el día?'),
     pregunta('¿Te sientes irritado/a con frecuencia?').
 
 insuficiencia_cardiaca :- sinsuficiencia_cardiaca,
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Sufres de fatiga?'),
-    pregunta('¿Observas hinchazón en tus piernas?'),
     pregunta('¿Toses con frecuencia?').
 
 insuficiencia_hepatica :- sinsuficiencia_hepatica,
-    pregunta('¿Tienes ictericia (coloración amarillenta de la piel y los ojos)?'),
     pregunta('¿Sufres de fatiga?'),
     pregunta('¿Experimentas dolor abdominal?'),
     pregunta('¿Has experimentado confusión mental?').
@@ -687,29 +667,24 @@ insuficiencia_hepatica :- sinsuficiencia_hepatica,
 insuficiencia_renal :- sinsuficiencia_renal,
     pregunta('¿Observas hinchazón en tus piernas?'),
     pregunta('¿Sufres de fatiga?'),
-    pregunta('¿Tienes dolor en la espalda?'),
-    pregunta('¿Tienes dificultad para orinar?').
+    pregunta('¿Tienes dolor en la espalda?').
 
 intoxicacion :- sintoxicacion,
     pregunta('¿Experimentas náuseas?'),
-    pregunta('¿Sufres de vómitos?'),
     pregunta('¿Experimentas mareos?'),
     pregunta('¿Sientes debilidad?').
 
 juanetes :- sjuanetes,
     pregunta('¿Tienes un bulto en el lado del pie?'),
-    pregunta('¿Sientes dolor al usar calzado?'),
     pregunta('¿Observas deformidad en el dedo gordo?').
 
 ladillas :- sladillas,
-    pregunta('¿Experimentas picazón en el pubis?'),
     pregunta('¿Observas pequeños puntos azules en el área?'),
     pregunta('¿Sientes irritación en la zona?').
 
 laringitis :- slaringitis,
-    pregunta('¿Sufres de ronquera?'),
     pregunta('¿Experimentas dolor de garganta?'),
-    pregunta('¿Toses seca con frecuencia?'),
+    pregunta('¿Sufres de ronquera?'),
     pregunta('¿Tienes dificultad para hablar?').
 
 legionella :- slegionella,
@@ -719,13 +694,11 @@ legionella :- slegionella,
     pregunta('¿Tienes dificultad para respirar?').
 
 leishmaniasis :- sleishmaniasis,
-    pregunta('¿Observas úlceras en la piel?'),
-    pregunta('¿Sufres de fiebre?'),
     pregunta('¿Has tenido pérdida de peso sin causa aparente?'),
+    pregunta('¿Sufres de fiebre?'),
     pregunta('¿Sufres de fatiga?').
 
 lepra :- slepra,
-    pregunta('¿Tienes manchas en la piel?'),
     pregunta('¿Sufres de nódulos bajo la piel?'),
     pregunta('¿Experimentas debilidad?'),
     pregunta('¿Has experimentado pérdida de sensación en áreas específicas del cuerpo?').
@@ -733,22 +706,18 @@ lepra :- slepra,
 leptospirosis :- sleptospirosis,
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Sufres de dolor muscular?'),
-    pregunta('¿Observas ictericia en tu piel?'),
     pregunta('¿Experimentas dolor de cabeza?').
 
 leucemia :- sleucemia,
     pregunta('¿Tienes moretones fácilmente sin causa aparente?'),
     pregunta('¿Sufres de fatiga?'),
-    pregunta('¿Has experimentado pérdida de peso sin razón aparente?'),
-    pregunta('¿Tienes infecciones frecuentes?').
+    pregunta('¿Has experimentado pérdida de peso sin razón aparente?').
 
 lipodistrofia :- slipodistrofia,
     pregunta('¿Has notado redistribución de grasa en tu cuerpo?'),
-    pregunta('¿Tienes resistencia a la insulina?'),
     pregunta('¿Tienes niveles altos de colesterol?').
 
 lipotimia :- slipotimia,
-    pregunta('¿Has experimentado desmayos?'),
     pregunta('¿Sientes debilidad generalizada?'),
     pregunta('¿Observas visión en túnel en algún momento?'),
     pregunta('¿Has tenido sudoración fría inesperada?').
@@ -762,22 +731,18 @@ listeriosis :- slisteriosis,
 litiasis_biliar :- slitiasis_biliar,
     pregunta('¿Tienes dolor abdominal?'),
     pregunta('¿Sufres de náuseas?'),
-    pregunta('¿Tienes episodios de vómitos?'),
     pregunta('¿Has experimentado dolor en la espalda?').
 
 lumbalgia :- slumbalgia,
-    pregunta('¿Sufres de dolor en la parte baja de la espalda?'),
     pregunta('¿Sientes rigidez en esa zona?'),
     pregunta('¿El dolor empeora al moverte?').
 
 lupus :- slupus,
-    pregunta('¿Has tenido erupción en la piel?'),
     pregunta('¿Sufres de dolor en las articulaciones?'),
     pregunta('¿Te sientes fatigado/a con frecuencia?'),
     pregunta('¿Has experimentado fiebre sin razón aparente?').
 
 luxaciones :- sluxaciones,
-    pregunta('¿Tienes alguna articulación fuera de su lugar?'),
     pregunta('¿Sientes dolor en esa zona?'),
     pregunta('¿Observas hinchazón en esa articulación?'),
     pregunta('¿Tienes limitación en el movimiento de esa articulación?').
@@ -785,40 +750,33 @@ luxaciones :- sluxaciones,
 malaria :- smalaria,
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Sufres de escalofríos?'),
-    pregunta('¿Experimentas dolor de cabeza?'),
-    pregunta('¿Sudas abundantemente durante episodios de fiebre?').
+    pregunta('¿Experimentas dolor de cabeza?').
 
 melanoma :- smelanoma,
-    pregunta('¿Has notado cambios en el tamaño de lunares?'),
     pregunta('¿Observas irregularidades en los bordes de lunares?'),
     pregunta('¿Has notado variación en el color de lunares?'),
     pregunta('¿Sientes picazón en alguna zona específica?').
 
 melasma :- smelasma,
-    pregunta('¿Tienes manchas oscuras en la piel?'),
     pregunta('¿Has notado aumento de la pigmentación en esas áreas?'),
     pregunta('¿Las manchas afectan principalmente tu cara?').
 
 melioidosis :- smelioidosis,
-    pregunta('¿Tienes fiebre?'),
     pregunta('¿Sufres de dolor muscular?'),
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Has experimentado confusión?').
 
 meningitis :- smeningitis,
-    pregunta('¿Sientes rigidez en tu cuello?'),
     pregunta('¿Tienes dolor de cabeza intenso?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Experimentas náuseas?').
 
 menopausia :- smenopausia,
-    pregunta('¿Has notado irregularidades en tu ciclo menstrual?'),
     pregunta('¿Sufres de sofocos o bochornos?'),
     pregunta('¿Tienes dificultad para dormir?'),
     pregunta('¿Has experimentado cambios de humor bruscos?').
 
 mers :- smers,
-    pregunta('¿Tienes fiebre?'),
     pregunta('¿Toses con frecuencia?'),
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Sientes dolor en el pecho al respirar?').
@@ -830,132 +788,110 @@ mesotelioma :- smesotelioma,
     pregunta('¿Tienes tos?').
 
 miastenia_gravis :- smiastenia_gravis,
-    pregunta('¿Sientes debilidad muscular frecuente?'),
     pregunta('¿Experimentas fatiga muscular?'),
     pregunta('¿Tienes dificultad para hablar a veces?'),
     pregunta('¿Experimentas dificultad para tragar alimentos?').
 
 micoplasma_genital :- smicoplasma_genital,
     pregunta('¿Sientes ardor al orinar?'),
-    pregunta('¿Tienes secreción genital anormal?'),
     pregunta('¿Experimentas dolor abdominal bajo?'),
     pregunta('¿Sientes picazón en la zona genital?').
 
 microcefalia :- smicrocefalia,
-    pregunta('¿Has notado un tamaño anormalmente pequeño de tu cabeza?'),
     pregunta('¿Has experimentado retraso en el desarrollo?'),
     pregunta('¿Tienes problemas de aprendizaje?').
 
 migraña :- smigraña,
-    pregunta('¿Sientes un dolor pulsátil en un lado de la cabeza?'),
     pregunta('¿Experimentas náuseas durante los episodios de dolor de cabeza?'),
     pregunta('¿Eres sensible a la luz durante los episodios?'),
     pregunta('¿Eres sensible al ruido durante los episodios?').
 
 miopia :- smiopia,
     pregunta('¿Tienes visión borrosa?'),
-    pregunta('¿Tienes dificultad para ver objetos lejanos?'),
     pregunta('¿Sufres de dolores de cabeza frecuentes?'),
     pregunta('¿Experimentas fatiga visual con facilidad?').
 
 mononucleosis :- smononucleosis,
-    pregunta('¿Sientes fatiga extrema?'),
     pregunta('¿Tienes dolor de garganta?'),
     pregunta('¿Tienes ganglios linfáticos inflamados?'),
     pregunta('¿Has tenido una erupción cutánea recientemente?').
 
 narcolepsia :- snarcolepsia,
-    pregunta('¿Has experimentado ataques súbitos de sueño?'),
     pregunta('¿Has experimentado pérdida de tono muscular inesperada?'),
     pregunta('¿Has tenido alucinaciones mientras te quedas dormido/a?'),
     pregunta('¿Has experimentado cataplejía (pérdida de tono muscular debido a emociones fuertes)?').
 
 neumonia :- sneumonia,
-    pregunta('¿Toses con flema?'),
     pregunta('¿Sientes dolor en el pecho al toser o respirar profundamente?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Tienes dificultad para respirar?').
 
 neumotorax :- sneumotorax,
-    pregunta('¿Sientes un dolor agudo en el pecho?'),
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Sientes falta de aire repentina?'),
     pregunta('¿Tienes tos seca persistente?').
 
 neurofibromatosis :- sneurofibromatosis,
-    pregunta('¿Tienes tumores en la piel?'),
     pregunta('¿Tienes manchas café con leche en la piel?'),
     pregunta('¿Sufres de dolores neuropáticos?'),
     pregunta('¿Tienes problemas de visión asociados?').
 
 nistagmo :- snistagmo,
-    pregunta('¿Experimentas movimientos oculares involuntarios?'),
     pregunta('¿Tienes dificultad para enfocar la visión?'),
     pregunta('¿Sufres de vértigo con frecuencia?'),
     pregunta('¿Tienes problemas de visión adicionales?').
 
 norovirus :- snorovirus,
-    pregunta('¿Has experimentado vómitos recientemente?'),
     pregunta('¿Sufres de diarrea?'),
     pregunta('¿Experimentas náuseas con frecuencia?'),
     pregunta('¿Tienes dolor abdominal asociado?').
 
 obesidad :- sobesidad,
-    pregunta('¿Has experimentado un aumento de peso significativo?'),
     pregunta('¿Tienes dificultad para adelgazar?'),
     pregunta('¿Te sientes cansado/a con facilidad?'),
     pregunta('¿Tienes problemas respiratorios al realizar actividades cotidianas?').
 
 oncocercosis :- soncocercosis,
-    pregunta('¿Sientes picazón en la piel?'),
     pregunta('¿Tienes nódulos subcutáneos visibles?'),
     pregunta('¿Has experimentado pérdida de visión?'),
     pregunta('¿Has perdido completamente la visión en algunos casos?').
 
 onicomicosis :- sonicomicosis,
-    pregunta('¿Has notado que tus uñas se ven amarillentas?'),
     pregunta('¿Tus uñas se ven engrosadas?'),
     pregunta('¿Tus uñas están quebradizas?'),
     pregunta('¿Sientes dolor en las uñas?').
 
 orquitis :- sorquitis,
-    pregunta('¿Sientes dolor testicular?'),
     pregunta('¿Tienes inflamación en los testículos?'),
     pregunta('¿Has experimentado fiebre recientemente?'),
     pregunta('¿Te sientes mal en general?').
 
-osteomalacia :- osteomalacia,
-    pregunta('¿Sientes dolor en los huesos?'),
+osteomalacia :- sosteomalacia,
     pregunta('¿Experimentas debilidad muscular?'),
     pregunta('¿Sufres de fracturas frecuentes?'),
     pregunta('¿Tienes dificultad para moverte con normalidad?').
 
-osteomielitis :- osteomielitis,
-    pregunta('¿Tienes dolor en el hueso afectado?'),
+osteomielitis :- sosteomielitis,
     pregunta('¿Has notado hinchazón alrededor del área afectada?'),
     pregunta('¿Hay enrojecimiento visible?'),
     pregunta('¿Has tenido fiebre recientemente?').
 
-osteonecrosis :- osteonecrosis,
-    pregunta('¿Sientes dolor en la articulación afectada?'),
+osteonecrosis :- sosteonecrosis,
     pregunta('¿Experimentas rigidez en la articulación?'),
     pregunta('¿Tienes dificultad para moverte?'),
     pregunta('¿Hay hinchazón en el área afectada?').
 
-osteoporosis :- osteoporosis,
-    pregunta('¿Sientes dolor de espalda con frecuencia?'),
+osteoporosis :- sosteoporosis,
     pregunta('¿Has perdido estatura?'),
     pregunta('¿Tu postura se ha encorvado con el tiempo?'),
     pregunta('¿Has sufrido fracturas con facilidad últimamente?').
 
 otitis :- sotitis,
-    pregunta('¿Sientes dolor en el oído?'),
     pregunta('¿Has experimentado pérdida de audición?'),
     pregunta('¿Tienes secreción del oído?'),
     pregunta('¿Sufres de mareos frecuentes?').
 
 pancreatitis :- spancreatitis,
-    pregunta('¿Sientes dolor abdominal?'),
     pregunta('¿Experimentas náuseas?'),
     pregunta('¿Sufres de vómitos frecuentes?'),
     pregunta('¿Tienes fiebre?').
@@ -969,118 +905,100 @@ paperas :- spaperas,
     pregunta('¿Tienes dolor de cabeza? ').
 
 parkinson :- sparkinson,
-    pregunta('¿Experimentas temblores en reposo?'),
     pregunta('¿Sientes rigidez muscular?'),
     pregunta('¿Tienes movimientos lentos?'),
     pregunta('¿Tienes problemas de equilibrio?').
 
 pericarditis :- spericarditis,
-    pregunta('¿Sientes dolor en el pecho?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Te sientes mal en general?').
 
 peritonitis :- speritonitis,
-    pregunta('¿Sientes dolor abdominal intenso?'),
     pregunta('¿Experimentas distensión abdominal?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Sufres de náuseas?').
 
 peste :- speste,
     pregunta('¿Tienes fiebre?'),
-    pregunta('¿Tienes glándulas hinchadas?'),
     pregunta('¿Sufres de dolor de cabeza?'),
     pregunta('¿Experimentas escalofríos?').
 
 
 pian :- spian,
-    pregunta('¿Tienes úlceras cutáneas?'),
     pregunta('¿Tienes nódulos subcutáneos?'),
     pregunta('¿Tienes inflamación de ganglios?'),
     pregunta('¿Tienes fiebre?').
 
 pielonefritis :- spielonefritis,
-    pregunta('¿Sientes dolor en la parte baja de la espalda?'),
     pregunta('¿Tienes dolor al orinar?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Experimentas escalofríos?').
 
 
 poliomielitis :- spoliomielitis,
-    pregunta('¿Tienes debilidad muscular?'),
     pregunta('¿Sufres de parálisis?'),
     pregunta('¿Tienes dificultad para tragar?'),
     pregunta('¿Tienes problemas respiratorios?').
 
 
 prediabetes :- sprediabetes,
-    pregunta('¿Sientes un aumento anormal de sed?'),
     pregunta('¿Orinas más frecuentemente de lo habitual?'),
     pregunta('¿Te sientes cansado/a con facilidad?'),
     pregunta('¿Tienes visión borrosa?').
 
 presbiacusia :- spresbiacusia,
-    pregunta('¿Has experimentado pérdida de audición?'),
     pregunta('¿Tienes dificultad para escuchar en entornos ruidosos?'),
     pregunta('¿Sufres de zumbido en los oídos?').
 
 presbicia :- spresbicia,
-    pregunta('¿Tienes dificultad para ver de cerca?'),
     pregunta('¿Necesitas iluminación adicional al leer de cerca?'),
     pregunta('¿Experimentas dolores de cabeza mientras lees de cerca?').
 
 priapismo :- spriapismo,
-    pregunta('¿Has experimentado una erección prolongada y dolorosa?'),
     pregunta('¿Sientes dificultad para orinar?'),
     pregunta('¿Tienes dolor genital?'),
     pregunta('¿Has experimentado mareos?').
 
 prostatitis :- sprostatitis,
-    pregunta('¿Sientes dolor en la pelvis?'),
     pregunta('¿Tienes dificultad para orinar?'),
     pregunta('¿Orinas con frecuencia?'),
     pregunta('¿Experimentas dolor genital?').
 
 psoriasis :- spsoriasis,
-    pregunta('¿Tienes placas rojas con escamas en la piel?'),
     pregunta('¿Sufres de picazón en la piel?'),
     pregunta('¿Tienes uñas engrosadas?'),
     pregunta('¿Sientes dolor en las articulaciones').
 
 rabia :- srabia,
-    pregunta('¿Tienes fiebre?'),
+    pregunta('¿Sufres espasmos musculares?'),
     pregunta('¿Experimentas dolor muscular?'),
-    pregunta('¿Sufres de confusión?'),
-    pregunta('¿Tienes espasmos musculares?').
+    pregunta('¿Tienes fiebre?'),
+    pregunta('¿Sufres de confusión?').
 
 resfriado :- sresfriado,
-    pregunta('¿Tienes dolor de garganta?'),
+    pregunta('¿Tienes tos?'),
     pregunta('¿Tienes escalofríos?'),
-    pregunta('¿Tienes fiebre?'),
     pregunta('¿Tienes dificultad para tragar?'),
     pregunta('¿Tienes cansancio? ').
 
 rinitis :- srinitis,
-    pregunta('¿Sufres de congestión nasal?'),
     pregunta('¿Tienes estornudos frecuentes?'),
     pregunta('¿Sientes picazón en la nariz?'),
     pregunta('¿Experimentas lagrimeo frecuente?').
 
 
 rizartrosis :- srizartrosis,
-    pregunta('¿Tienes dolor en la base del pulgar?'),
     pregunta('¿Tienes inflamación en la zona afectada?'),
     pregunta('¿Sientes dificultad para agarrar objetos?'),
     pregunta('¿Sientes rigidez en la zona afectada?').
 
 rosacea :- srosacea,
-    pregunta('¿Tienes enrojecimiento en la piel, especialmente en la cara?'),
     pregunta('¿Experimentas ardor o picazón en la piel?'),
     pregunta('¿Ves pequeños vasos sanguíneos visibles?'),
     pregunta('¿Tienes protuberancias en la piel?').
 
 rubeola :- srubeola,
-    pregunta('¿Tienes una erupción cutánea rosada?'),
     pregunta('¿Sientes fiebre?'),
     pregunta('¿Sufres de dolor de cabeza?'),
     pregunta('¿Tienes dolor en las articulaciones?').
@@ -1100,12 +1018,10 @@ sarampion :- ssarampion,
 
 sarcoidosis :- ssarcoidosis,
     pregunta('¿Tienes tos seca?'),
-    pregunta('¿Sientes falta de energía?'),
     pregunta('¿Experimentas dolor articular?'),
     pregunta('¿Tienes nódulos en la piel').
 
 sarna :- ssarna,
-    pregunta('¿Sufres de picazón intensa en la piel?'),
     pregunta('¿Tienes erupciones cutáneas visibles?'),
     pregunta('¿Ves pequeñas ampollas en la piel?'),
     pregunta('¿Tienes lesiones cutáneas?').
@@ -1120,10 +1036,11 @@ sida :- ssida,
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Sudas mucho por la noche sin razón aparente?'),
     pregunta('¿Has perdido peso sin razón aparente?'),
+    pregunta('¿Tienes diarrea?'),
+    pregunta('¿Tienes tos?'),
     pregunta('¿Te sientes constantemente cansado/a?').
 
 sifilis :- ssifilis,
-    pregunta('¿Tienes llagas indoloras en alguna parte del cuerpo?'),
     pregunta('¿Tienes una erupción cutánea?'),
     pregunta('¿Experimentas fiebre?'),
     pregunta('¿Sufres de dolor de cabeza?').
@@ -1131,17 +1048,15 @@ sifilis :- ssifilis,
 silicosis :- ssilicosis,
     pregunta('¿Tienes tos crónica?'),
     pregunta('¿Experimentas dificultad para respirar?'),
-    pregunta('¿Sufres de fatiga frecuente?'),
-    pregunta('¿Tienes dolor en el pecho?').
+    pregunta('¿Tienes fiebre?'),
+    pregunta('¿Sufres de sudores nocturnos y pierdes peso?').
 
 talesemia :- stalesemia,
-    pregunta('¿Sientes palidez en la piel?'),
     pregunta('¿Te sientes constantemente cansado/a?'),
     pregunta('¿Sientes debilidad?'),
     pregunta('¿Has perdido el apetito recientemente?').
 
 tendinitis :- stendinitis,
-    pregunta('¿Sientes dolor en la zona afectada?'),
     pregunta('¿Tienes inflamación en la zona afectada?'),
     pregunta('¿Experimentas rigidez en la zona afectada?'),
     pregunta('¿Tienes dificultad para moverte con normalidad?').
@@ -1153,13 +1068,11 @@ teniasis :- steniasis,
     pregunta('¿Has perdido peso sin razón aparente?').
 
 torticolis :- storticolis,
-    pregunta('¿Tienes dolor en el cuello?'),
     pregunta('¿Has experimentado una inclinación anormal de la cabeza?'),
     pregunta('¿Tienes dificultad para mover el cuello?').
 
 
 toxicodermias :- stoxicodermias,
-    pregunta('¿Tienes una erupción cutánea?'),
     pregunta('¿Sufres de picazón en la piel?'),
     pregunta('¿Tienes hinchazón en la piel?'),
     pregunta('¿Tienes ampollas en la piel?').
@@ -1167,64 +1080,57 @@ toxicodermias :- stoxicodermias,
 
 toxoplasmosis :- stoxoplasmosis,
     pregunta('¿Sientes dolor muscular?'),
-    pregunta('¿Tienes ganglios hinchados?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Sufres de dolor de garganta?').
 
 tracoma :- stracoma,
-    pregunta('¿Sientes picazón en los ojos?'),
     pregunta('¿Tienes secreción ocular?'),
     pregunta('¿Eres sensible a la luz?'),
     pregunta('¿Has experimentado pérdida de visión?').
 
 traqueitis :- straqueitis,
-    pregunta('¿Tienes tos seca?'),
     pregunta('¿Tienes dificultad para respirar?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Te sientes mal en general?').
 
 trastorno_bipolar :- strastorno_bipolar,
-    pregunta('¿Has experimentado cambios extremos de estado de ánimo?'),
     pregunta('¿Has sentido energía extrema recientemente?'),
     pregunta('¿Tienes dificultad para dormir?'),
     pregunta('¿Has experimentado pensamientos acelerados?').
 
 trastorno_obsesivo_compulsivo :- strastorno_obsesivo_compulsivo,
-    pregunta('¿Tienes pensamientos intrusivos?'),
     pregunta('¿Realizas rituales repetitivos?'),
     pregunta('¿Sufres de miedo irracional?'),
     pregunta('¿Experimentas angustia?').
 
 traumatismo_craneal :- straumatismo_craneal,
-    pregunta('¿Sientes mareos?'),
-    pregunta('¿Tienes dolor de cabeza?'),
+    pregunta('¿Tienes mucho dolor de cabeza?'),
     pregunta('¿Te sientes confundido/a?'),
     pregunta('¿Sufres de náuseas?').
 
 
 tricomoniasis :- stricomoniasis,
-    pregunta('¿Sientes picazón en el área genital?'),
     pregunta('¿Experimentas ardor al orinar?'),
     pregunta('¿Tienes flujo vaginal?'),
     pregunta('¿Experimentas dolor durante las relaciones sexuales?').
 
 trombosis_venosa :- strombosis_venosa,
-    pregunta('¿Sientes dolor o sensibilidad en la pierna?'),
     pregunta('¿Tienes hinchazón en la pierna?'),
     pregunta('¿Hay enrojecimiento en la zona afectada?'),
     pregunta('¿Sientes calor en la pierna?').
 
 
 tuberculosis :- stuberculosis,
-    pregunta('¿Tienes tos persistente?'),
     pregunta('¿Tienes fiebre?'),
+    pregunta('¿Tienes perdida de apetito?'),
     pregunta('¿Has perdido peso recientemente?'),
     pregunta('¿Experimentas sudores nocturnos?').
 
 tularemia :- stularemia,
-    pregunta('¿Tienes fiebre?'),
-    pregunta('¿Experimentas escalofríos?'),
     pregunta('¿Sientes dolor de garganta?'),
+    pregunta('¿Experimentas escalofríos?'),
+    pregunta('¿Tienes fiebre?'),
+    pregunta('¿Te sientes agotado?'),
     pregunta('¿Tienes dolor de cabeza?').
 
 ulceras :- sulceras,
@@ -1234,13 +1140,11 @@ ulceras :- sulceras,
     pregunta('¿Sufres de indigestión?').
 
 uretritis :- suretritis,
-    pregunta('¿Sientes dolor al orinar?'),
     pregunta('¿Experimentas ardor al orinar?'),
     pregunta('¿Sientes un aumento en el deseo de orinar?'),
     pregunta('¿Tienes secreción del pene?').
 
 urticaria :- surticaria,
-    pregunta('¿Tienes ronchas rojas en la piel?'),
     pregunta('¿Sufres de picazón en la piel?'),
     pregunta('¿Tienes hinchazón en la piel?'),
     pregunta('¿Sientes dolor en la piel?').
@@ -1248,47 +1152,40 @@ urticaria :- surticaria,
 uveitis :- suveitis,
     pregunta('¿Sientes visión borrosa?'),
     pregunta('¿Tienes dolor en el ojo?'),
-    pregunta('¿Hay enrojecimiento en el ojo?'),
     pregunta('¿Eres sensible a la luz?').
 
 vaginitis :- svaginitis,
-    pregunta('¿Sientes picazón en la vagina?'),
     pregunta('¿Experimentas ardor en la zona vaginal?'),
     pregunta('¿Tienes dolor al orinar?'),
     pregunta('¿Tienes flujo vaginal anormal?').
 
 varicela :- svaricela,
     pregunta('¿Tienes fiebre?'),
+    pregunta('¿Tienes picazon y ardor en todo el cuerpo?'),
     pregunta('¿Tienes dolor de cabeza?'),
     pregunta('¿Tienes cansancio'),
     pregunta('¿Tienes pérdida de apetito?').
 
 varices :- svarices,
-    pregunta('¿Tienes venas hinchadas?'),
     pregunta('¿Sientes dolor en las venas?'),
     pregunta('¿Experimentas sensación de piernas pesadas?'),
     pregunta('¿Tienes ardor en las venas?').
 
 varicocele :- svaricocele,
-    pregunta('¿Sientes dolor testicular?'),
     pregunta('¿Tienes sensación de pesadez en el escroto?'),
     pregunta('¿Has notado un testículo atrofiado?'),
     pregunta('¿Tienes hinchazón en el área afectada?').
 
 vertigo :- svertigo,
     pregunta('¿Sientes mareo?'),
-    pregunta('¿Has experimentado pérdida de equilibrio?'),
     pregunta('¿Sientes una sensación de giro?'),
     pregunta('¿Has sufrido de náuseas?').
 
 viruela_del_mono :- sviruela_del_mono,
-    pregunta('¿Tienes fiebre?'),
     pregunta('¿Experimentas dolor de cabeza?'),
-    pregunta('¿Tienes erupciones cutáneas?'),
-    pregunta('¿Sientes dolor muscular?').
+    pregunta('¿Tienes erupciones cutáneas?').
 
-virus_de_niño :- svirus_de_niño,
-    pregunta('¿Tienes fiebre?'),
+virus_de_nilo :- svirus_de_nilo,
     pregunta('¿Tienes una erupción roja en la piel?'),
     pregunta('¿Tienes tos?'),
     pregunta('¿Tienes conjuntivitis?').
@@ -1297,56 +1194,34 @@ virus_de_niño :- svirus_de_niño,
 virus_mayaro :- svirus_mayaro,
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Experimentas dolor de cabeza?'),
-    pregunta('¿Tienes dolor articular?'),
-    pregunta('¿Tienes erupciones cutáneas?').
-
+    pregunta('¿Tienes dolor articular?').
 
 virus_nipah :- svirus_nipah,
-    pregunta('¿Tienes fiebre?'),
-    pregunta('¿Experimentas dolor de cabeza?'),
-    pregunta('¿Tienes dolor de garganta?'),
+    pregunta('¿Tienes dolores musculares fuertes?'),
+    pregunta('¿Tienes vomitos?'),
     pregunta('¿Te sientes confundido/a?').
 
-
-virus_usutu :- svirus_usutu,
-    pregunta('¿Tienes fiebre?'),
-    pregunta('¿Experimentas dolor de cabeza?'),
-    pregunta('¿Te sientes fatigado/a?'),
-    pregunta('¿Tienes dolor muscular?').
-
 vitiligo :- svitiligo,
-    pregunta('¿Has experimentado pérdida de color en la piel?'),
     pregunta('¿Tienes manchas blancas en la piel?'),
     pregunta('¿Has notado cambios en la pigmentación de la piel?'),
     pregunta('¿Eres sensible al sol?').
 
 vph :- svph,
-    pregunta('¿Tienes verrugas genitales?'),
     pregunta('¿Sufres de picazón genital?'),
     pregunta('¿Experimentas dolor al orinar?'),
     pregunta('¿Tienes sangrado vaginal anormal').
 
 zika :- szika,
-    pregunta('¿Tienes conjuntivitis?'),
     pregunta('¿Tienes fiebre?'),
     pregunta('¿Tienes erupciones cutáneas?'),
     pregunta('¿Sientes dolor articular?').
 
-zoofobia :- szoofobia,
-    pregunta('¿Tienes miedo irracional a los animales?'),
-    pregunta('¿Experimentas ansiedad extrema relacionada con los animales?'),
-    pregunta('¿Has sufrido ataques de pánico relacionados con los animales?'),
-    pregunta('¿Evitas situaciones que involucran a los animales?').
-
 zoster :- szoster,
-    pregunta('¿Tienes erupciones cutáneas?'),
-    pregunta('¿Sientes dolor agudo?'),
     pregunta('¿Tienes ampollas en la piel?'),
     pregunta('¿Experimentas picazón?'),
     pregunta('¿Te sientes mal en general?').
 
 zollinger_ellison :- szollinger_ellison,
-    pregunta('¿Sufres de hiperacidez gástrica?'),
     pregunta('¿Tienes úlceras pépticas?'),
     pregunta('¿Has experimentado diarrea?'),
     pregunta('¿Tienes tumores pancreáticos?'),
@@ -1458,14 +1333,140 @@ sgiardiasis :- pregunta('¿Sufres de hinchazon y calambres abdominales?'),!.
 sglaucoma :- pregunta('¿Experimentas vision estrecha o de tunel?'),!.
 sgonorrea :- pregunta('¿Tienes secreción inusual ?'),!.
 sgota :- pregunta('¿Presentas limitación en el movimiento?'),!.
-
-% aun faltan mas reglas para las enfermedades
-
-% estas van mas abajo
-sinfluenza :- pregunta('¿Tienes dolor muscular?'),!.
+sgripe :- pregunta('¿Tienes fiebre alta y escalofrios?'),!.
+shantavirus :- pregunta('¿Sufres de hemorragias y dolores intensos?'),!.
+shemocromatosis :- pregunta('Tienes diabetes y dolor abdominal?'),!.
+shemofilia :- pregunta('Sufres de moretones en el cuerpo?'),!.
+shemorroides :- pregunta('¿Sientes dolor durante la defecacion?'),!.
+shepatitis :- pregunta('¿Tienes orina oscura?'),!.
+shernia_inguinal :- pregunta('¿Tienes un bulto en la ingle?'),!.
+sherpes :- pregunta('¿Tienes llagas en los genitales?'),!.
+shidatidosis :- pregunta('¿Tienes tumefaccion?'),!.
+shiperactividad :- pregunta('¿Sientes inquietud?'),!.
+shipercolesterolemia :- pregunta('¿Haz sufrido de cumulaciones cutáneas?'),!.
+shipertension :- pregunta('¿Tienes presión arterial elevada?'),!.
+shipertiroidismo :- pregunta('¿Experimentas taquicardia?'),!.
+shipoacusia :- pregunta('¿Tienes dificultad auditiva?'),!.
+shipocalcemia :- pregunta('¿Tienes espasmos musculares?'),!.
+shipoglucemia :- pregunta('¿Sudas mucho?'),!.
+shipogonadismo :- pregunta('¿Tienes baja libido?'),!.
+shipotension_arterial :- pregunta('¿Sufres de presión arterial baja?'),!.
+shipotiroidismo :- pregunta('¿Tienes síntomas de depresión?'),!.
+shirsutismo :- pregunta('¿Experimentas crecimiento excesivo de vello?'),!.
+sictus :- pregunta('¿Se te difuculta hablar?'),!.
+simpetigo :- pregunta('¿Tienes ampollas en la piel?'),!.
+sinfluenza :- pregunta('¿Tienes escalofríos?'),!.
+sinsomnio :- pregunta('¿Te despiertas temprano sin poder volver a dormir?'),!.
+sinsuficiencia_cardiaca :- pregunta('¿Observas hinchazón en tus piernas?'),!.
+sinsuficiencia_hepatica :- pregunta('¿Tienes ictericia (coloración amarillenta de la piel y los ojos)?'),!.
+sinsuficiencia_renal :- pregunta('¿Se te difuculta orinar?'),!.
+sintoxicacion :- pregunta('¿Has ingerido algun alimento y te ha causado vómitos?'),!.
+sjuanetes :- pregunta('¿Sientes dolor al usar calzado?'),!.
+sladillas :- pregunta('¿Experimentas picazón en el pubis?'),!.
+slaringitis :- pregunta('¿Sufres de tos seca frecuente?'),!.
+slegionella :- pregunta('¿Tienes sintomas gastrointestinales, como náuseas, vómitos y diarrea?'),!.
+sleishmaniasis :- pregunta('¿Tienes úlceras en la piel?'),!.
+slepra :- pregunta('¿Tienes manchas bajo la piel?'),!.
+sleptospirosis :- pregunta('¿Observas ictericia en tu piel?'),!.
+sleucemia :- pregunta('¿Tienes infecciones frecuentes?'),!.
+slipodistrofia :- pregunta('¿Tienes resistencia a la insulina?'),!.
+slipotimia :- pregunta('¿Has experimentado desmayos?'),!.
+slisteriosis :- pregunta('¿Tienes náuseas frecuentemente?'),!.
+slitiasis_biliar :- pregunta('¿Tienes episodios de vómitos?'),!.
+slumbalgia :- pregunta('¿Sufres de dolor en la parte baja de la espalda?'),!.
+slupus :- pregunta('¿Has tenido erupción en la piel?'),!.
+sluxaciones :- pregunta('¿Tienes alguna articulación fuera de su lugar?'),!.
+smalaria :- pregunta('¿Sudas abundantemente durante episodios de fiebre?'),!.
+smelanoma :- pregunta('¿Has notado cambios en el tamaño de lunares?'),!.
+smelasma :- pregunta('¿Tienes manchas oscuras en la piel?'),!.
+smelioidosis :- pregunta('¿Tienes fiebre alta, inflamacion o ulceras en la zona afectada?'),!.
+smeningitis :- pregunta('¿Sientes rigidez en tu cuello?'),!.
+smenopausia :- pregunta('¿Has notado irregularidades en tu ciclo menstrual?'),!.
+smers :- pregunta('¿Tienes fiebre, haz sufrido neumonia?'),!.
+smesotelioma :- pregunta('¿Sientes dolor de cuerpo, haz perdido peso?'),!.
+smiastenia_gravis :- pregunta('¿Sientes debilidad muscular frecuente?'),!.
+smicoplasma_genital :- pregunta('¿Tienes secreción genital anormal?'),!.
+smicrocefalia :- pregunta('¿Has notado un tamaño anormalmente pequeño de tu cabeza?'),!.
+smigraña :- pregunta('¿Sientes un dolor pulsátil en un lado de la cabeza?'),!.
+smiopia :-  pregunta('¿Tienes dificultad para ver objetos lejanos?'),!.
+smononucleosis :- pregunta('¿Sientes fatiga extrema?'),!.
+snarcolepsia :- pregunta('¿Has experimentado ataques súbitos de sueño?'),!.
+sneumonia :- pregunta('¿Toses con flema?'),!.
+sneumotorax :- pregunta('¿Sientes un dolor agudo en el pecho?'),!.
+sneurofibromatosis :- pregunta('¿Tienes tumores en la piel?'),!.
+snistagmo :- pregunta('¿Experimentas movimientos oculares involuntarios?'),!.
+snorovirus :- pregunta('¿Has experimentado vómitos recientemente?'),!.
+sobesidad :- pregunta('¿Has experimentado un aumento de peso significativo?'),!.
+soncocercosis :- pregunta('¿Sientes picazón en la piel?'),!.
+sonicomicosis :- pregunta('¿Has notado que tus uñas se ven amarillentas?'),!.
+sorquitis :- pregunta('¿Sientes dolor testicular?'),!.
+sosteomalacia :- pregunta('¿Sientes dolor en los huesos?'),!.
+sosteomielitis :- pregunta('¿Tienes dolor en el hueso afectado?'),!.
+sosteonecrosis :- pregunta('¿Sientes dolor en la articulación afectada?'),!.
+sosteoporosis :- pregunta('¿Sientes dolor de espalda con frecuencia?'),!.
+sotitis :- pregunta('¿Sientes dolor en el oído?'),!.
+spancreatitis :- pregunta('¿Sientes dolor en la zona abdominal que irradia hacia la espalda'), !.
 spaperas :- pregunta('¿Tienes malestar general?'),!.
-sresfriado :- pregunta('¿Area blanca o grisácea en parte posterior de garganta?'),!.
+sparkinson :- pregunta('¿Experimentas temblores en reposo?'),!.
+spericarditis :- pregunta('¿Sientes dolor en el pecho?'),!.
+speritonitis :- pregunta('¿Sientes dolor abdominal intenso?'),!.
+speste :- pregunta('¿Tienes las glándulas hinchadas?'),!.
+spian :- pregunta('¿Tienes úlceras cutáneas?'),!.
+spielonefritis :- pregunta('¿Sientes dolor en la parte baja de la espalda?'),!.
+spoliomielitis :- pregunta('¿Tienes debilidad muscular?'),!.
+sprediabetes :- pregunta('¿Sientes un aumento anormal de sed?'),!.
+spresbiacusia :- pregunta('¿Has experimentado pérdida de audición?'),!.
+spresbicia :- pregunta('¿Tienes dificultad para ver de cerca?'),!.
+spriapismo :- pregunta('¿Has experimentado una erección prolongada y dolorosa?'),!.
+sprostatitis :- pregunta('¿Sientes dolor en la pelvis?'),!.
+spsoriasis :- pregunta('¿Tienes placas rojas con escamas en la piel?'),!.
+srabia :- pregunta('¿Sufres alucinaciones y convulsiones?'),!.
+sresfriado :- pregunta('¿Tienes area blanca o grisácea en parte posterior de garganta?'),!.
+srinitis :- pregunta('¿Sufres de congestión nasal?'),!.
+srizartrosis :- pregunta('¿Tienes dolor en la base del pulgar?'),!.
+srosacea :- pregunta('¿Tienes enrojecimiento en la piel, especialmente en la cara?'),!.
+srubeola :- pregunta('¿Tienes una erupción cutánea rosada?'),!.
+ssalmonelosis :- pregunta('¿Has sufrido calambres abdominales recientemente?'),!.
 ssarampion :- pregunta('¿Tienes ojos llorosos?'),!.
+ssarcoidosis :- pregunta('¿Sientes falta de energía?'),!.
+sssarna :- pregunta('¿Sufres de picazón intensa en la piel?'),!.
+ssepsis :- pregunta('¿Sufres de hinchazón generalizada del cuerpo?'),!.
+ssida :- pregunta('¿Tienes manchas blancas o lesiones inusuales en la lengua o en la boca?'),!.
+ssifilis :- pregunta('¿Tienes llagas indoloras en alguna parte del cuerpo?'),!.
+ssilicosis :- pregunta('¿Sufres debilidad, fatiga y dolor de pecho?'),!.
+stalesemia :- pregunta('¿Observas palidez en la piel?'),!.
+stendinitis :- pregunta('¿Sientes dolor intenso gradual o repentino en la parte afectada?'),!.
+steniasis :- pregunta('¿Tienes problemas digestivos?'),!.
+storticolis :- pregunta('¿Tienes dolor en el cuello?'),!.
+stoxicodermias :- pregunta('¿Tienes una erupción cutánea?'),!.
+stoxoplasmosis :- pregunta('¿Tienes ganglios hinchados?'),!.
+stracoma :- pregunta('¿Sientes picazón en los ojos?'),!.
+straqueitis :- pregunta('¿Tienes tos seca profunda y dolorosa?'),!.
+strastorno_bipolar :- pregunta('¿Has experimentado cambios extremos de estado de ánimo?'),!.
+strastorno_obsesivo_compulsivo :- pregunta('¿Tienes pensamientos intrusivos?'),!.
+straumatismo_craneal :- pregunta('¿Sientes mareos?'),!.
+stricomoniasis :- pregunta('¿Sientes picazón en el área genital?'),!.
+strombosis_venosa :- pregunta('¿Sientes dolor o sensibilidad en la pierna?'),!.
+stuberculosis :- pregunta('¿Tienes tos persistente y con sangre?'),!.
+stularemia :- pregunta('¿Tienes las glándulas linfáticas dolorosas e hinchadas?'),!.
+sulceras :- pregunta('¿Tienes sensación de saciedad, hinchazón o eructos?'),!.
+suretritis :- pregunta('¿Sientes dolor al oriniar y orina con sangre?'),!.
+surticaria :- pregunta('¿Tienes ronchas rojas en la piel?'),!.
+suveitis :- pregunta('¿Tienes enrojecimiento en los ojos e hinchazon?'),!.
+svaginitis :- pregunta('¿Sientes picazón en la vagina?'),!.
 svaricela :- pregunta('¿Tienes erupciones en la piel?'),!.
+svarices :- pregunta('¿Tienes venas hinchadas?'),!.
+svaricocele :- pregunta('¿Sientes dolor testicular intenso?'),!.
+svertigo :- pregunta('¿Experimentas inestabilidad o pérdida del equilibrio?'),!.
+sviruela_del_mono :- pregunta('¿Tienes fiebre, dolores musculares y agotamiento?'),!.
+svirus_de_nilo :- pregunta('¿Tienes fiebre intensa y fuertes dolores musculares?'),!.
+svirus_mayaro :- pregunta('¿Tienes erupción cutánea en forma de manchas rojas en el cuerpo?'),!.
+svirus_nipah :- pregunta('¿Tienes fiebre, dolor de cabeza e irritacion en la garganta?'),!.
+svitiligo :- pregunta('¿Has experimentado pérdida de color en la piel?'),!.
+svph :- pregunta('¿Tienes verrugas genitales?'),!.
+szika :- pregunta('¿Tienes conjuntivitis?'),!.
+szoster :- pregunta('¿Tienes erupciones cutáneas y sientes dolor agudo?'),!.
+szollinger_ellison :- pregunta('¿Sufres de hiperacidez gástrica?'),!.
+
 
 % informacion de enfermedades obtenida https://www.webconsultas.com/salud-al-dia

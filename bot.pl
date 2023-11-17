@@ -30,14 +30,14 @@ mostrar_diagnostico(Pantalla, Diagnostico) :-
 % metodo principal para iniciar la interfaz gráfica
 main :-
     new(@main, dialog('Sistema Diagnóstico Médico')),
-    new(@respl, label(nombre, 'Este es un texto de ejemplo')), % Cambia el texto por lo que desees mostrar
+    new(@respl, label(nombre, 'ejemplo')),
 
     % btn de salir
     new(Salir, button('SALIR', and(message(@main, destroy), message(@main, free)))),
     new(@boton, button('Realizar Consulta', message(@prolog, botones))),
 
     % tamaño a los botones y etiquetas
-    send(@main, append(@respl)), % Añade @respl directamente al diálogo
+    send(@main, append(@respl)),
     new(@btncarrera, button('¿Diagnóstico?')),
 
     mostrar_imagen(@main, botMedico),

@@ -14,7 +14,6 @@ fallas('USTED PADECE ABRASIÓN CORNEAL:
     Seguir las indicaciones del médico para el cuidado y la curación.
 ') :- abrasion_corneal, !.
 
-
 fallas('USTED PADECE DE ALERGIA:
     TRATAMIENTO:
     Evitar el contacto con el alérgeno.
@@ -23,6 +22,31 @@ fallas('USTED PADECE DE ALERGIA:
     Usar una inyección de epinefrina para tratar una reacción alérgica grave.
     Tomar medicamentos para la alergia o recibir inyecciones de alergia para controlar los síntomas.
 ') :- alergia, !.
+
+fallas('USTED PADECE DE ALZHEIMER:
+    TRATAMIENTO:
+    Estimular la mente con ejercicios mentales.
+    Mantener una dieta balanceada y saludable.
+    Realizar ejercicio físico regularmente.
+    Evitar el estrés y la ansiedad.
+') :- alzheimer, !.
+
+fallas('USTED PADECE DE AMENORREA:
+    TRATAMIENTO:
+    Tratar la causa subyacente, que puede incluir cambios en el estilo de vida, terapia hormonal o medicamentos.
+    Controlar el estrés y la ansiedad.
+    Mantener una dieta equilibrada y saludable.
+    Realizar ejercicio físico regularmente.
+') :- amenorrea, !.
+
+fallas('USTED PADECE DE ANEMIA:
+    TRATAMIENTO:
+    Consumir una dieta rica en hierro, como carnes magras, vegetales de hoja verde y legumbres.
+    Tomar suplementos de hierro según las indicaciones médicas.
+    Realizar análisis de sangre regulares para monitorear los niveles de hemoglobina.
+    Tratar la causa subyacente que puede estar causando la anemia.
+') :- anemia, !.
+
 
 fallas('USTED PADECE PAPERAS:
     TRATAMIENTO:

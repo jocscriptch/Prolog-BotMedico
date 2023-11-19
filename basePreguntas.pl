@@ -1,4 +1,3 @@
-% Codificación UTF-8
 :- encoding(utf8).
 
 % Base de preguntas para las enfermedades
@@ -1467,6 +1466,3 @@ svph :- pregunta('¿Tienes verrugas genitales?'),!.
 szika :- pregunta('¿Tienes conjuntivitis?'),!.
 szoster :- pregunta('¿Tienes erupciones cutáneas y sientes dolor agudo?'),!.
 szollinger_ellison :- pregunta('¿Sufres de hiperacidez gástrica?'),!.
-
-
-% informacion de enfermedades obtenida https://www.webconsultas.com/salud-al-dia

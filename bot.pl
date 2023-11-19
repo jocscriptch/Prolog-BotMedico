@@ -36,7 +36,6 @@ main :-
     new(Salir, button('SALIR', and(message(@main, destroy), message(@main, free)))),
     new(@boton, button('Realizar Consulta', message(@prolog, botones))),
 
-    % tamaño a los botones y etiquetas
     send(@main, append(@respl)),
     new(@btncarrera, button('¿Diagnóstico?')),
 
@@ -50,7 +49,7 @@ main :-
 
 :- main.
 
-% Esta parte del sistema  se encarga de inferir cual es el diagnostico a partir
+% Esta parte del sistema se encarga de inferir cual es el diagnostico a partir
 % de las preguntas realizadas al usuario
 
 :- dynamic si/1, no/1.
@@ -73,16 +72,14 @@ preguntar(Problema) :- new(Di, dialog('Diagnóstico medico')),
     ((Answer == si) -> assert(si(Problema));
     assert(no(Problema)), fail).
 
-% cada vez que se conteste una pregunta la pantalla se limpia para
-% volver a preguntar
+% cada vez que se conteste una pregunta la pantalla se limpia para volver a preguntar
 
 pregunta(S) :- (si(S) -> true; (no(S) -> fail; preguntar(S))).
 limpiar :- retract(si(_)), fail.
 limpiar :- retract(no(_)), fail.
 limpiar.
 
-% proceso de elección de acuerdo al diagnóstico basado en las preguntas
-% anteriores
+% proceso de eleccion de acuerdo al diagnostico basado en las preguntas anteriores
 
 botones :-
     lim,

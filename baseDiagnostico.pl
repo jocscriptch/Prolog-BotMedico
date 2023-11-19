@@ -1,8 +1,7 @@
-% Codificación UTF-8
 :- encoding(utf8).
 
 % Base de conocimientos
-% enfermedades que presenta y tratamiento de acuerdo a las reglas de diagnostico
+% enfermedades que presenta y tratamiento de acuerdo a las reglas del diagnostico
 
 fallas('USTED PADECE ABRASIÓN CORNEAL:
     TRATAMIENTO:
@@ -1581,9 +1580,5 @@ fallas('USTED PADECE DE SÍNDROME DE ZOLLINGER-ELLISON:
     Inhibidores de la bomba de protones para controlar la producción de ácido.
     Cirugía para remover tumores, si es posible.
 ') :- zollinger_ellison, !.
-
-
-
-
 
 fallas('Sin resultados, usted no dio la información necesaria o suficiente!').
